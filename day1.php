@@ -8,8 +8,20 @@
 </head>
 
 <body>
-    <? echo ("Hello World")
+    <?
+    $characterAge = 21;
+    $characterName = "Shvuam";
+
+
+
+    // echo "<h1> Hello </h1>";
+    // echo "<hr>";
+    // echo "<p>This is my site</p>";
+    echo "My name is $characterName <br>";
+    echo "Any My age is $characterAge";
+
     ?>
+
 </body>
 
 </html>
