@@ -20,11 +20,26 @@
     // echo "Any My age is $characterAge";
     // echo "My name is $characterName <br>";
 
-    $phrase = "To be or not to be";
-    $age = 21;
-    $gpa = 3.35;
-    $isLoggedIn = false;
-    //? Null
+    $name = "SHUVAM ADHIKARI";
+    // $age = 21;
+    // $gpa = 3.35;
+    // $isLoggedIn = false;
+
+    // echo strtolower($phrase);
+    // echo "<br>";
+    // echo strlen($phrase);
+    // echo "<br>";
+    // $phrase[0] = "A";
+    // echo str_replace("SHUVAM", "Hello", $name);
+
+
+
+    echo substr($name, 7, 4);
+
+
+
+
+
 
 
     ?>
